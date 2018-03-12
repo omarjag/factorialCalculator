@@ -35,6 +35,7 @@ namespace factCalculator
 				//if statement checks if a negative value is entered, then displays an error message if the number is negative.
 				if(x < 0)
 				{
+					resultTxtBox.Text = "";
 					MessageBox.Show("Please enter a Whole POSITIVE Interger", "input error");
 					enterTxtBox.Clear();
 					resultTxtBox.Clear();
